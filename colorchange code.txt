@@ -1,0 +1,17 @@
+ <html>
+<body>
+<p id="demo" onmouseover="over()" onmouseout="out()"> rokon </p>
+<script>
+    function over()
+    {
+        document.getElementById("demo").style.color='red';
+    }
+	    function out()
+    {
+        document.getElementById("demo").style.color='green';
+    }	
+</script>
+
+</body>
+
+</html>
